@@ -60,7 +60,7 @@ function draw() {
       drawRedBubble();
     }
 
-    if(keyIsDown("space")) {
+    if(keyDown("space")) {
       shootBullet()
     }
 
